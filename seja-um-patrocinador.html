@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seja patrocinador - Legião da Velocidade</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/media-query.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <img src="IMG/menu.png" alt="openMenu" id="bt-menu">
+        <img src="IMG/botao-fechar.png" alt="closeMenus" id="close-menu">
+
+        <header>
+            <img src="IMG/logo-png.png" alt="Logo-Legião-da-velocidade" id="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="pilotos.html">SOBRE OS PILOTOS</a></li>
+                    <li><a href="especialidades.html">ESPECIALIDADES</a></li>
+                    <li><a href="conquistas.html">CONSQUISTAS</a></li>
+                    <li><a href="agenda-de-torneios.html">AGENDE UM TORNEIOS</a></li>
+                    <li><a href="seja-um-patrocinador.html"><span class="cor-menu">SEJA UM PATROCINADOR</span></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="bordas-laterais-vermelhas">
+            <div id="titulo">
+                <h1>SEJA UM PATROCINADOR</h1>
+            </div>
+
+            <section class="bordas-brancas" id="secao-patrocinio">
+                <h2 class="subtitulo"><span class="letra-rosa bold">Você é apaixonado por jogos de corrida?</span> Você
+                    quer apoiar uma equipe brasileira que
+                    compete em diversos torneios online de diferentes gêneros e plataformas? <span
+                        class="letra-roxa">Você quer divulgar a sua
+                        marca para milhares de espectadores que acompanham as transmissões ao vivo dos eventos?</span>
+                    Então, você
+                    pode ser um patrocinador da Legião da Velocidade!</h2>
+
+                <article class="formatar-article-2">
+                    <p class="formatar-texto bold-textos bordas-vermelhas">
+                        Somos a Legião da Velocidade! Equipe gamer formada por cinco pilotos virtuais que participam de
+                        campeonatos de jogos como Gran Turismo Sport, Forza Horizon 4, Need for Speed: Heat, F1 2023,
+                        Dirt Rally 2.0, Project CARS 3, Mario Kart 8 Deluxe, WRC 9, Assetto Corsa Competizione e Burnout
+                        Paradise Remastered. Com mais de 10 anos de experiência, conquistando ótimos resultados e muitos
+                        fãs.
+                    </p>
+                </article>
+
+                <h2 class="subtitulo">Ao se <span class="letra-vermelha">tornar um patrocinador</span> da <span
+                        class="letra-roxa">Legião da Velocidade</span>, você terá diversos
+                    <span class="letra-rosa">benefícios</span>, tais como:
+                </h2>
+
+                <article class="formatar-article-2 bordas-vermelhas">
+                    <ul class="formatar-lista-2">
+                        <li class="bold ">Ter o seu logo estampado nos uniformes dos pilotos da equipe</li>
+                        <li class="bold">Ter o seu nome mencionado nas redes sociais e nos vídeos da equipe</li>
+                        <li class="bold">Ter o seu banner exibido no site oficial da equipe</li>
+                        <li class="bold">Ter o seu produto ou serviço recomendado pelos pilotos da equipe</li>
+                        <li class="bold">Ter acesso exclusivo aos bastidores dos eventos e às entrevistas com os pilotos
+                            da equipe</li>
+                        <li class="bold">Ter a oportunidade de interagir com os pilotos da equipe e com os seus fãs</li>
+                    </ul>
+                </article>
+
+                <h2 class="subtitulo">Para <span class="letra-vermelha">se tornar um patrocinador</span> da <span
+                        class="letra-roxa">Legião da Velocidade</span>, você precisa preencher o
+                    <span class="letra-rosa">formulário</span> <span class="letra-roxa">abaixo</span> e enviar a sua
+                    <span class="letra-vermelha">proposta</span>. Nós entraremos em <span class="letra-rosa">contato com
+                        você</span> o mais breve possível
+                    para discutir os detalhes da <span class="letra-roxa">parceria</span>.
+                </h2>
+
+                <div class="centralizar">
+                    <form class="bordas-vermelhas" id="formPatrocinio">
+                        <legend class="bold">Contato Parceria:</legend>
+                        <label for="inName">Nome:<span class="letra-rosa">*</span></label>
+                        <input type="text" id="inName" required placeholder="Nome Completo">
+
+                        <label for="inEmail">E-mail:<span class="letra-rosa">*</span></label>
+                        <input type="email" id="inEmail" required placeholder="example@example.com">
+
+                        <label for="inNumber">Número:<span class="letra-rosa">*</span></label>
+                        <input type="tel" id="inNumber" required placeholder="(00) 00000-0000">
+
+                        <h3 class="bold">Sexo:<span class="letra-rosa">*</span></h3>
+                        <div>
+                            <label for="inMasculino">Masculino</label>
+                            <input type="radio" id="inMasculino" value="Masculino" name="sexo" required>
+                        </div>
+                        <div>
+                            <label for="inFeminino">Feminino</label>
+                            <input type="radio" id="inFeminino" value="Feminino" name="sexo" required>
+                        </div>
+
+                        <label for="inCnpj">CNPJ: <span class="letra-menor">(opcional)</span></label>
+                        <input type="number" id="inConpj">
+
+                        <label for="inDescricao">Faça um breve descrição:<span class="letra-rosa">*</span></label>
+                        <textarea id="inDescricao" cols="30" rows="10" minlength="150" maxlength="300"
+                            class="formatar-area-de-texto" required
+                            placeholder="Conte-nos sobre você ou sua empresa."></textarea>
+
+                        <div class="centralizar-botao">
+                            <input type="submit" value="Enviar" class="botao">
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <section class="bordas-brancas" id="alerta-de-agradecimento">
+                <div class="bordas-vermelhas formatar-article-2 formatar-alerta-de-agradecimento">
+
+                    <div class="centralizar">
+                        <img src="IMG/logo-png.png" id="logo">
+                    </div>
+
+                    <div class="formatar-mensagem-de-agradecimento">
+                        <h3 id="mensagem-de-envio">Enviado com sucesso!</h3>
+                        <h4><span class="letra-roxa">ENTRAREMOS EM CONTATO EM BREVE!</span></h4>
+                        <h4><span class="letra-vermelha">Obrigado pelo seu interesse em apoiar a Legião da Velocidade!
+                                Juntos, nós vamos acelerar rumo à vitória! 🏁</span></h4>
+                        <button class="botao"><a href="index.html" id="reload">VOLTAR</a></button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+
+        </footer>
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
